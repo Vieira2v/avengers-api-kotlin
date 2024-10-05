@@ -23,8 +23,8 @@ private const val API_PATH = "/v1/api/avenger"
 @RequestMapping(value = [API_PATH])
 class AvengerController(
 
-    @Autowired private val repository: AvengerRepository
-
+    @Autowired
+    private val repository: AvengerRepository
 ) {
     
     @GetMapping

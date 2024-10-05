@@ -16,7 +16,6 @@ import one.digitalinnovation.avengers.domain.avenger.AvengerRepository
 import one.digitalinnovation.avengers.domain.avenger.Avenger
 import jakarta.validation.Valid
 import java.net.URI
-import com.jayway.jsonpath.internal.Path
 
 private const val API_PATH = "/v1/api/avenger"
 

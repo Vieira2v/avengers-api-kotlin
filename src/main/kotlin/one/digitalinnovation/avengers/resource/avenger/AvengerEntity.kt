@@ -4,6 +4,7 @@ import jakarta.persistence.*
 import one.digitalinnovation.avengers.domain.avenger.Avenger
 
 @Entity
+@Table(name = "avenger")
 data class AvengerEntity (
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

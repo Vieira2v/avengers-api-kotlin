@@ -16,7 +16,6 @@ private const val API_PATH = "/v1/api/avenger"
 class AvengerController(
     @Autowired
     private val repository: AvengerRepository
-
 ) {
     @GetMapping
     fun getAvengers() = repository.getAvengers()
